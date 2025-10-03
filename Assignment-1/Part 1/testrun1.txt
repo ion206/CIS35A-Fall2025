@@ -1,0 +1,69 @@
+Ayan Syed
+F25 CIS D035A 11Y, 62Z Java Programming
+Assignment -1
+Due: Oct 3rd 2025
+Submitted: Oct 3rd 2025
+
+
+Test Runs For Part 1:
+
+Set 1 -> 2 1 4 1 2
+
+How many TV's were sold? 2
+How many VCR's were sold? 1
+How many remote controller's were sold? 4
+How many CD's were sold? 1
+How many Tape Recorder's were sold? 2
+QTY  DESCRIPTION     UNIT PRICE   TOTAL PRICE
+  2  TV              $    400.00 $    800.00
+  1  VCR             $    220.00 $    220.00
+  4  Remote          $     35.20 $    140.80
+  1  CD Player       $    300.00 $    300.00
+  2  Tape Recorder   $    150.00 $    300.00
+---------------------------------------------
+                      SUBTOTAL:    1760.80
+                         TAX:       145.27
+                        TOTAL:     1906.07
+---------------------------------------------
+
+
+
+Set 2 -> 3 0 2 0 21
+
+How many TV's were sold? 3
+How many VCR's were sold? 0
+How many remote controller's were sold? 2
+How many CD's were sold? 0
+How many Tape Recorder's were sold? 21
+QTY  DESCRIPTION     UNIT PRICE   TOTAL PRICE
+  3  TV              $    400.00 $   1200.00
+  0  VCR             $    220.00 $      0.00
+  2  Remote          $     35.20 $     70.40
+  0  CD Player       $    300.00 $      0.00
+ 21  Tape Recorder   $    150.00 $   3150.00
+---------------------------------------------
+                      SUBTOTAL:    4420.40
+                         TAX:       364.68
+                        TOTAL:     4785.08
+---------------------------------------------
+
+
+
+Random Set:
+
+How many TV's were sold? 54
+How many VCR's were sold? 65
+How many remote controller's were sold? 324
+How many CD's were sold? 876
+How many Tape Recorder's were sold? 34
+QTY  DESCRIPTION     UNIT PRICE   TOTAL PRICE
+ 54  TV              $    400.00 $  21600.00
+ 65  VCR             $    220.00 $  14300.00
+324  Remote          $     35.20 $  11404.80
+876  CD Player       $    300.00 $ 262800.00
+ 34  Tape Recorder   $    150.00 $   5100.00
+---------------------------------------------
+                      SUBTOTAL:  315204.81
+                         TAX:     26004.40
+                        TOTAL:   341209.22
+---------------------------------------------

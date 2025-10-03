@@ -1,0 +1,31 @@
+Ayan Syed
+F25 CIS D035A 11Y, 62Z Java Programming
+Assignment -1
+Due: Oct 3rd 2025
+Submitted: Oct 3rd 2025
+
+
+Test Cases and Runs For Part 2:
+
+
+Numbers Equivalency Test: F 100 and C 212
+Please enter temperature in Centigrade(C): 100
+Fahrenheit: 212.00
+Please enter temperature in Fahrenheit(F): 212
+Centigrade: 100.00
+
+
+
+Negative Tests: C -400 and F -75
+Please enter temperature in Centigrade(C): -400
+Fahrenheit: -688.00
+Please enter temperature in Fahrenheit(F): -75
+Centigrade: -59.44
+
+
+
+Other Test: C 0 and F 100
+Please enter temperature in Centigrade(C): 0
+Fahrenheit: 32.00
+Please enter temperature in Fahrenheit(F): 180
+Centigrade: 82.22
