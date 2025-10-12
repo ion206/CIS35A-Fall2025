@@ -1,51 +1,71 @@
-public class Part2 {
+/*
+Ayan Syed
+F25 CIS D035A 11Y, 62Z Java Programming
+Assignment 1
+Due Date: October 12th, 2025
+Date Submitted: October 12th, 2025
+ */
 
-    /**
-     * Approximates the square root of a non-negative number 'n' using the Babylonian method.
-     * * The process is iterative and uses the formula:
-     * nextGuess = (lastGuess + n / lastGuess) / 2
-     * * The approximation stops when the absolute difference between the new guess 
-     * (nextGuess) and the previous guess (lastGuess) is less than the tolerance (0.0001).
-     * * @param n The number for which to calculate the square root (must be long).
-     * @return The approximated square root as a double.
-     */
+
+//Lab 1 Part 2 - Square Root Approximation (Babylonian Method)
+
+ /**
+     * Function sqrt(long n) Approximates the square root of a non-negative number 'n' using the Babylonian method
+     * The process is iterative and uses the formula:
+     *  nextGuess = (lastGuess + n / lastGuess) / 2
+     * The approximation stops when the absolute difference between the new guess (nextGuess) and the previous guess (lastGuess) is less than the tolerance (0.0001)
+     * 
+     * Tests runs of this code can be found in testrun2.txt
+*/
+
+
+public class Part2 {
     public static double sqrt(long n) {
+        /*
+         * n (long) - The number for which to calculate the square root
+         * return (double) - Approximated square root of n (if n is below 0, will return -1)
+         */
         // Input validation for non-negative numbers.
         if (n < 0) {
-            throw new IllegalArgumentException("Cannot compute the square root of a negative number.");
+            //Using an if statement to handle the negative number case, we just return -1 in that case
+            System.out.printf("ERROR: Cannot compute the square root of a negative number!!\n");
+            return -1.0;
         }
         if (n == 0) {
+            //If n is 0, we can just return 0, all these steps ensure that all numbers being processed are positive and above 0
             return 0.0;
         }
 
-        // 1. Set the initial guess. The problem suggests starting with 1.
+        //Setting the initial guess - The problem suggests starting with 1
         double lastGuess = 1.0;
         double nextGuess;
 
-        // Define the convergence tolerance as specified in the problem (0.0001).
+        // Define the convergence tolerance - Problem recommended that we use 0.0001
         final double TOLERANCE = 0.0001;
 
-        // Loop until the difference between the guesses is negligible.
+        // Loop until the difference between the guesses is below TOLERANCE
         while (true) {
-            // 2. Calculate the next guess using the Babylonian formula.
-            // We cast 'n' to double to ensure floating-point division.
+            // Calculate the next guess using the Babylonian formula
+            // Casting n to double to ensure floating-point division
             nextGuess = (lastGuess + (double)n / lastGuess) / 2.0;
 
-            // 3. Check for the stopping condition: 
+            // Check for the stopping condition: 
             // |nextGuess - lastGuess| < 0.0001
             if (Math.abs(nextGuess - lastGuess) < TOLERANCE) {
-                // Convergence achieved. The current nextGuess is the result.
+                // Convergence achieved - The current nextGuess is the result and we can return that
                 return nextGuess;
             }
 
-            // 4. If not converged, update lastGuess for the next iteration.
-            // nextGuess becomes the new lastGuess.
+            // If not converged, update lastGuess for the next iteration
+            // nextGuess becomes the new lastGuess
             lastGuess = nextGuess;
         }
     }
 
-    /**
-     * Main method for testing the sqrt implementation.
+    /*
+     * Wrote a few test cases for testing the sqrt method in main
+     * Displays function result with the Math.sqrt(n) result
+     * Output of this code is what is found in testrun2.txt
      */
     public static void main(String[] args) {
         long n1 = 4;
@@ -53,7 +73,7 @@ public class Part2 {
         long n3 = 50;
         long n4 = 100000;
         
-        System.out.println("--- Babylonian Square Root Method Test ---");
+        System.out.printf("--- Babylonian Square Root Method Test ---\n");
 
         // Test case 1: Perfect square
         double result1 = sqrt(n1);
@@ -75,5 +95,10 @@ public class Part2 {
         long n5 = 0;
         double result5 = sqrt(n5);
         System.out.printf("sqrt(%d): Calculated= %.4f | Exact= %.4f\n", n5, result5, Math.sqrt(n5));
+
+        // Test case 5: Edge case n=0
+        long n6 = -1;
+        double result6 = sqrt(n6);
+        System.out.printf("sqrt(%d): Calculated= %.4f | Exact= %.4f\n", n6, result6, Math.sqrt(n6));
     }
 }

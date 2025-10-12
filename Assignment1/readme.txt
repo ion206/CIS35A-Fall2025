@@ -12,5 +12,5 @@ In each folder, two files are given - one is the .java and the other is the test
 Part 1 - Loan Amortization Program
 testrun1.txt contains the testruns for Part1 
 
-Part 2 - Custom Sqrt Function Project
+Part 2 - Custom Sqrt Function Project using the Babylonian Method
 testrun2.txt contains the testruns for Part2

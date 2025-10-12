@@ -1,0 +1,18 @@
+Ayan Syed
+F25 CIS D035A 11Y, 62Z Java Programming
+Assignment 1
+Due: Oct 12th 2025
+Submitted: Oct 12th 2025
+
+
+Test Runs For Part 2:
+
+
+--- Babylonian Square Root Method Test ---
+sqrt(4): Calculated= 2.0000 | Exact= 2.0000
+sqrt(16): Calculated= 4.0000 | Exact= 4.0000
+sqrt(50): Calculated= 7.0711 | Exact= 7.0711
+sqrt(100000): Calculated= 316.2278 | Exact= 316.2278
+sqrt(0): Calculated= 0.0000 | Exact= 0.0000
+ERROR: Cannot compute the square root of a negative number!!
+sqrt(-1): Calculated= -1.0000 | Exact= NaN
