@@ -25,7 +25,7 @@ public class Part2 {
          * n (long) - The number for which to calculate the square root
          * return (double) - Approximated square root of n (if n is below 0, will return -1)
          */
-        // Input validation for non-negative numbers.
+        // Input validation for non-negative numbers
         if (n < 0) {
             //Using an if statement to handle the negative number case, we just return -1 in that case
             System.out.printf("ERROR: Cannot compute the square root of a negative number!!\n");

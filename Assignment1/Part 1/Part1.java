@@ -9,20 +9,20 @@ Date Submitted: October 12th, 2025
 
 //Lab 1 Part 1 - Loan Amortization
 
-/* Design
+/* 1. Design
 
-    This Java program first prompts the user for the loan amount, the number of years for repayment, and the annual interest rate. 
-    It then calculates the necessary monthly payment and generates a detailed amortization schedule, breaking down each payment into interest and principal until the loan is fully repaid.
+    This Java program first prompts the user for the loan amount, the number of years for repayment, and the annual interest rate
+    It then calculates the necessary monthly payment and generates a detailed amortization schedule, breaking down each payment into interest and principal until the loan is fully repaid
 
 
     Functions:
-    calculateMonthlyPayment - Takes the loan amount (double), monthly interest rate (double), and total payments (int) to return the monthly payment (double).
+    calculateMonthlyPayment - Takes the loan amount (double), monthly interest rate (double), and total payments (int) to return the monthly payment (double)
 
-    calculateTotalPayment - Takes the monthly payment (double) and total payments (int) to return the total payment over the loan's life (double).
+    calculateTotalPayment - Takes the monthly payment (double) and total payments (int) to return the total payment over the loan's life (double)
 
-    displayLoanSummary - Takes the loan's summary details (5 doubles/ints) and prints the formatted summary to the console (void).
+    displayLoanSummary - Takes the loan's summary details (5 doubles/ints) and prints the formatted summary to the console (void)
 
-    main - Handles user input, calls the calculation and summary methods, and then uses a loop to print the detailed amortization schedule (void).
+    main - Handles user input, calls the calculation and summary methods, and then uses a loop to print the detailed amortization schedule (void)
     
     As mentioned in the syllabus, all necessary testruns and test cases can be found for this code in testrun1.txt
 
@@ -32,14 +32,14 @@ import java.lang.Math;
 
 public class Part1 {
 
-     //Calculates the monthly payment for a loan using the amortization formula.
+     //Calculates the monthly payment for a loan using the amortization formula
      //Formula being used -> M = P * [r / (1 - (1 + r)^-n)]
     public static double calculateMonthlyPayment(double loanAmount, double monthlyInterestRate, int totalNumberOfPayments) {
         /* 
-        * loanAmount (double) The principal loan amount (P).
-        * monthlyInterestRate (double) The monthly interest rate (r) as a decimal.
-        * totalNumberOfPayment (int) The total number of payments (n).
-        * return (double) The calculated monthly payment (M).
+        * loanAmount (double) The principal loan amount (P)
+        * monthlyInterestRate (double) The monthly interest rate (r) as a decimal
+        * totalNumberOfPayment (int) The total number of payments (n)
+        * return (double) The calculated monthly payment (M)
         */
         if (monthlyInterestRate == 0) {
             // Handle the zero interest rate case using an if statement - we have a devide by zero after so this reduces error
@@ -54,35 +54,35 @@ public class Part1 {
         return loanAmount * (numerator / denominator);
     }
 
-     // Calculates the total payment over the life of the loan.
+     // Calculates the total payment over the life of the loan
     public static double calculateTotalPayment(double monthlyPayment, int totalNumberOfPayments) {
         /*
-        * monthlyPayment (double) The calculated monthly payment.
-        * totalNumberOfPayments (int) The total number of payments.
-        * return (double) The total amount paid.
+        * monthlyPayment (double) The calculated monthly payment
+        * totalNumberOfPayments (int) The total number of payments
+        * return (double) The total amount paid
         */
         return monthlyPayment * totalNumberOfPayments;
     }
 
-    // Prints a summary of the loan details and key results.
+    // Prints a summary of the loan details and key results
     public static void displayLoanSummary(double loanAmount, int numberOfYears, double annualInterestRate, double monthlyPayment, double totalPayment) {
         
-        /* loanAmount (double) The principal loan amount.
-        *  numberOfYears (int) The loan term in years.
-        *  annualInterestRate (double) The annual interest rate (e.g., 7.0).
-        *  monthlyPayment (double) The calculated monthly payment.
-        *  totalPayment (double) The calculated total payment.
+        /* loanAmount (double) The principal loan amount
+        *  numberOfYears (int) The loan term in years
+        *  annualInterestRate (double) The annual interest rate (e.g., 7.0)
+        *  monthlyPayment (double) The calculated monthly payment
+        *  totalPayment (double) The calculated total payment
         *  return (void) None
         */
-        System.out.println("\n------------------------------------------------");
-        System.out.println("Loan Summary:");
+        System.out.printf("\n%s\n", "------------------------------------------------");
+        System.out.printf("%s\n", "Loan Summary:");
         System.out.printf("Loan Amount: $%.2f\n", loanAmount);
-        System.out.println("Number of Years: " + numberOfYears);
-        System.out.println("Annual Interest Rate: " + annualInterestRate + "%");
+        System.out.printf("Number of Years: %d\n", numberOfYears);
+        System.out.printf("Annual Interest Rate: %.2f%%\n", annualInterestRate);
         System.out.printf("\nMonthly Payment: $%.2f\n", monthlyPayment);
         System.out.printf("Total Payment: $%.2f\n", totalPayment);
         System.out.printf("Total Interest Paid: $%.2f\n", totalPayment - loanAmount);
-        System.out.println("------------------------------------------------");
+        System.out.printf("%s\n", "------------------------------------------------");
     }
 
     //main method
@@ -119,7 +119,7 @@ public class Part1 {
 
         // --- Generate Amortization Schedule ---
 
-        System.out.println("\nAmortization Schedule:");
+        System.out.printf("\nAmortization Schedule:\n");
         // Printing header for the table
         System.out.printf("%-10s %-12s %-12s %s\n", "Payment#", "Interest", "Principal", "Balance");
         
