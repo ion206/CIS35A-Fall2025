@@ -1,0 +1,46 @@
+Ayan Syed
+F25 CIS D035A 11Y, 62Z Java Programming
+Assignment 2A
+Due: Oct 19th 2025
+Submitted: Oct 19th 2025
+
+Code Test Run:
+
+--- Entering Data for Stacey ---
+Enter Name (e.g., Student A): Stacey
+Enter Address (e.g., 123 Main St): 123 De Anza Blvd
+Enter Age (must be an integer): 20
+Enter Phone Number (e.g., 555-123-4567): 1234567890
+
+--- Personal Record ---
+Name:        Stacey
+Address:     123 De Anza Blvd
+Age:         20 years old
+Phone:       1234567890
+-----------------------
+
+--- Entering Data for Ross ---
+Enter Name (e.g., Student A): Ross
+Enter Address (e.g., 123 Main St): 321 Foothill Street
+Enter Age (must be an integer): 30
+Enter Phone Number (e.g., 555-123-4567): 0987654321
+
+--- Personal Record ---
+Name:        Ross
+Address:     321 Foothill Street
+Age:         30 years old
+Phone:       0987654321
+-----------------------
+
+--- Entering Data for Mia ---
+Enter Name (e.g., Student A): Mia
+Enter Address (e.g., 123 Main St): 456 Java Road
+Enter Age (must be an integer): 25
+Enter Phone Number (e.g., 555-123-4567): 2468013579
+
+--- Personal Record ---
+Name:        Mia
+Address:     456 Java Road
+Age:         25 years old
+Phone:       2468013579
+-----------------------
