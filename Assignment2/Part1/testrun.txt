@@ -1,0 +1,52 @@
+
+Ayan Syed
+F25 CIS D035A 11Y, 62Z Java Programming
+Assignment 2
+Due Date: October 28th, 2025
+Date Submitted: October 28th, 2025
+
+Test Run for Part 1:
+
+
+Enter Genome Name (e.g., Mickey Mouse): Mickey
+Enter Number of Genes (e.g., 20000): 20000
+Enter Number of Chromosomes (e.g., 46): 46
+Enter Number of Cells in Trillions (e.g., 76.0 or 75.5): 75.2 
+
+
+Enter Genome Name (e.g., Mickey Mouse): Minne Mouse
+Enter Number of Genes (e.g., 20000): 14000
+Enter Number of Chromosomes (e.g., 46): 67
+Enter Number of Cells in Trillions (e.g., 76.0 or 75.5): 45.36
+
+
+Enter Genome Name (e.g., Mickey Mouse): Donald Duck
+Enter Number of Genes (e.g., 20000): 25000
+Enter Number of Chromosomes (e.g., 46): 45
+Enter Number of Cells in Trillions (e.g., 76.0 or 75.5): 89.34
+
+
+
+
+*** Printing the 3 Human Genome Objects ***
+--------------------------------------------------
+Genome Name                   : Mickey
+--------------------------------------------------
+Number of Genes               : 20000
+Number of Chromosomes         : 46
+Number of Cells               : 75.20 Trillion
+--------------------------------------------------
+--------------------------------------------------
+Genome Name                   : Minne Mouse
+--------------------------------------------------
+Number of Genes               : 14000
+Number of Chromosomes         : 67
+Number of Cells               : 45.36 Trillion
+--------------------------------------------------
+--------------------------------------------------
+Genome Name                   : Donald Duck
+--------------------------------------------------
+Number of Genes               : 25000
+Number of Chromosomes         : 45
+Number of Cells               : 89.34 Trillion
+--------------------------------------------------

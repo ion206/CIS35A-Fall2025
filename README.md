@@ -5,4 +5,6 @@ Current Assignments:
 * Assignment -1
 * Assignment 0
 * Assignment 1
+* Assignment 2a
+* Assignment 2
 

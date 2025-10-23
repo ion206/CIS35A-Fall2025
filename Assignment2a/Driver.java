@@ -90,7 +90,7 @@ public class Driver {
         return new Person(name, address, age, phoneNumber);
     }
 
-    public print() {
+    public void print() {
         //Print all instance variables of driver
         // No instance variables so nothing to print
     }
