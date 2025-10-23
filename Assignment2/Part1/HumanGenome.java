@@ -2,8 +2,8 @@
 Ayan Syed
 F25 CIS D035A 11Y, 62Z Java Programming
 Assignment 2
-Due Date: October 28th, 2025
-Date Submitted: October 28th, 2025
+Due Date: October 26th, 2025
+Date Submitted: October 26th, 2025
 
 
 Assignment 2 Part 1 - Human Genome OOP
