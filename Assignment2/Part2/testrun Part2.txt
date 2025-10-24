@@ -1,0 +1,107 @@
+Ayan Syed
+F25 CIS D035A 11Y, 62Z Java Programming
+Assignment 2
+Due: Oct 26th 2025
+Submitted: Oct 26th 2025
+
+Assignment 2 Part 2 - Nucleic Acid OOP
+
+Test Run for Part 2:
+
+//First Test - Full Run with general use
+Enter Name: Cytosine
+Enter Chemical Formula: C4H5N3O
+Enter Molar Mass (g/mol): 111.10
+Enter Density (g/cm3): 1.55
+
+
+Enter Name: Guanine
+Enter Chemical Formula: C5H5N5O
+Enter Molar Mass (g/mol): 151.13
+Enter Density (g/cm3): 2.200
+
+
+Enter Name: Uracil
+Enter Chemical Formula: C4H4N2O2
+Enter Molar Mass (g/mol): 112.087  
+Enter Density (g/cm3): 1.32
+
+
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.550 g/cm3
+==================================================
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+
+==================================================
+NUCLEIC ACID: URACIL
+==================================================
+Chemical Formula              : C4H4N2O2
+Molar Mass                    : 112.087 g/mol
+Density                       : 1.320 g/cm3
+==================================================
+
+
+
+//Second Run 
+
+//Second Test High Precision 3 dec places
+Enter Name: high precision acid
+Enter Chemical Formula: C5H5J7K2
+Enter Molar Mass (g/mol): 126.115
+Enter Density (g/cm3): 1.223
+
+//Third test - empty strings and zeros for float vals
+Enter Name:   
+Enter Chemical Formula: 
+Enter Molar Mass (g/mol): 0.0
+Enter Density (g/cm3): 0.0
+
+//Testing Negative Mass
+Enter Name: Negative Mass Acid
+Enter Chemical Formula: NA
+Enter Molar Mass (g/mol): -5.5
+Enter Density (g/cm3): -1.0
+
+
+
+
+==================================================
+NUCLEIC ACID: HIGH PRECISION ACID
+==================================================
+Chemical Formula              : C5H5J7K2
+Molar Mass                    : 126.115 g/mol
+Density                       : 1.223 g/cm3
+==================================================
+
+
+==================================================
+NUCLEIC ACID: 
+==================================================
+Chemical Formula              : 
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+
+==================================================
+NUCLEIC ACID: NEGATIVE MASS ACID
+==================================================
+Chemical Formula              : NA
+Molar Mass                    : -5.500 g/mol
+Density                       : -1.000 g/cm3
+==================================================
