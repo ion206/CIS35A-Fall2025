@@ -53,29 +53,12 @@ public class GenoNucleicAcid {
      * by calling the input() method three times to create three instances of the claass then prints them
      */
     public static void main(String[] args) {
-        // Initialize Scanner for user input
-        Scanner scanner = new Scanner(System.in);
-
-        // Create an instance of GenoNucleicAcid to call the instance method input()
-        GenoNucleicAcid acidManager = new GenoNucleicAcid();
-
-        //Instance 1 
-        NucleicAcid acid1 = acidManager.input(scanner);
-
-        //Instance 2 
-        NucleicAcid acid2 = acidManager.input(scanner);
-
-        //Instance 3 
-        NucleicAcid acid3 = acidManager.input(scanner);
-
-        // Close the scanner after all input is finished
-        scanner.close();
-        
-        // Print the details of each created instance
-        acid1.print();
-        acid2.print();
-        acid3.print();
-        
+        // Testing lab for exam
+        int x = 10;
+        int y = x;
+        int y = 5;
+        System.out.println(x);
+        System.out.println(y);
     }
 
     //Default Constructor
