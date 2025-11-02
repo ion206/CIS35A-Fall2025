@@ -7,4 +7,5 @@ Current Assignments:
 * Assignment 1
 * Assignment 2a
 * Assignment 2
+* Assignment 3
 

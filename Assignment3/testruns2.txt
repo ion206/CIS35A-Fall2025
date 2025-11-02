@@ -1,0 +1,1752 @@
+Ayan Syed
+F25 CIS D035A 11Y, 62Z Java Programming
+Assignment 3
+Due Date: November 2nd, 2025
+Date Submitted: November 2nd, 2025
+
+
+testruns2.txt
+
+My Personal and Unique Test Case Outputs:
+
+Test Cases in this document:
+1. TAAATAATTTAA
+2. CCCCCCCCCCCCCCCCC
+3. AGAGAGAGAGAGAGAGAG
+4. GGCCGGCC
+5. FAFAFAFAFAFAFA //Testing Invalid Input handling
+
+Runs are seperated by lines of "------..."
+
+
+Test Case 1: TAAATAATTTAA ------------------------------------------------------------------------------------------------------------
+
+Enter DNA Strand: TAAATAATTTAA
+Using Input Strand: TAAATAATTTAA
+
+LtoR Helix populated -- Size: 12
+
+==================================================
+            DNA DOUBLE HELIX STRUCTURE            
+
+Index      | LtoR Base       | RtoL Base      
+--------------------------------------------------
+0          | Thymine         | Adenine        
+1          | Adenine         | Thymine        
+2          | Adenine         | Thymine        
+3          | Adenine         | Thymine        
+4          | Thymine         | Adenine        
+5          | Adenine         | Thymine        
+6          | Adenine         | Thymine        
+7          | Thymine         | Adenine        
+8          | Thymine         | Adenine        
+9          | Thymine         | Adenine        
+10         | Adenine         | Thymine        
+11         | Adenine         | Thymine        
+--------------------------------------------------
+Detailed Nucleic Acid Properties:
+
+--- Index 0 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 0 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 1 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 1 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 2 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 2 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 3 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 3 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 4 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 4 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 5 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 5 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 6 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 6 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 7 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 7 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 8 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 8 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 9 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 9 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 10 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 10 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 11 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 11 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+==================================================
+          HIGHEST NUCLEIC ACID MOLAR MASS         
+Highest Molar Mass: 135.130 g/mol
+Found at Index 1 in LtoRHelix (Adenine)
+==================================================
+
+==================================================
+              TOTAL DNA DENSITY                   
+Total Density (All Bases): 33.600 g/cm3
+==================================================
+------------------------------------------------------------------------------------------------------------------------
+
+Test Case 2: CCCCCCCCCCCCCCCCC -------------------------------------------------------------------------------------------------------
+Enter DNA Strand: CCCCCCCCCCCCCCCCC
+Using Input Strand: CCCCCCCCCCCCCCCCC
+
+LtoR Helix populated -- Size: 17
+
+==================================================
+            DNA DOUBLE HELIX STRUCTURE            
+
+Index      | LtoR Base       | RtoL Base      
+--------------------------------------------------
+0          | Cytosine        | Guanine        
+1          | Cytosine        | Guanine        
+2          | Cytosine        | Guanine        
+3          | Cytosine        | Guanine        
+4          | Cytosine        | Guanine        
+5          | Cytosine        | Guanine        
+6          | Cytosine        | Guanine        
+7          | Cytosine        | Guanine        
+8          | Cytosine        | Guanine        
+9          | Cytosine        | Guanine        
+10         | Cytosine        | Guanine        
+11         | Cytosine        | Guanine        
+12         | Cytosine        | Guanine        
+13         | Cytosine        | Guanine        
+14         | Cytosine        | Guanine        
+15         | Cytosine        | Guanine        
+16         | Cytosine        | Guanine        
+--------------------------------------------------
+Detailed Nucleic Acid Properties:
+
+--- Index 0 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 0 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 1 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 1 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 2 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 2 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 3 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 3 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 4 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 4 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 5 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 5 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 6 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 6 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 7 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 7 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 8 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 8 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 9 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 9 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 10 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 10 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 11 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 11 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 12 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 12 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 13 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 13 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 14 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 14 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 15 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 15 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 16 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 16 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+==================================================
+          HIGHEST NUCLEIC ACID MOLAR MASS         
+Highest Molar Mass: 151.130 g/mol
+Found at Index 0 in RtoLHelix (Guanine)
+==================================================
+
+==================================================
+              TOTAL DNA DENSITY                   
+Total Density (All Bases): 64.600 g/cm3
+==================================================
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Test Case 3: AGAGAGAGAGAGAGAGAG ------------------------------------------------------------------------------------------------------
+Enter DNA Strand: AGAGAGAGAGAGAGAGAG
+Using Input Strand: AGAGAGAGAGAGAGAGAG
+
+LtoR Helix populated -- Size: 18
+
+==================================================
+            DNA DOUBLE HELIX STRUCTURE            
+
+Index      | LtoR Base       | RtoL Base      
+--------------------------------------------------
+0          | Adenine         | Thymine        
+1          | Guanine         | Cytosine       
+2          | Adenine         | Thymine        
+3          | Guanine         | Cytosine       
+4          | Adenine         | Thymine        
+5          | Guanine         | Cytosine       
+6          | Adenine         | Thymine        
+7          | Guanine         | Cytosine       
+8          | Adenine         | Thymine        
+9          | Guanine         | Cytosine       
+10         | Adenine         | Thymine        
+11         | Guanine         | Cytosine       
+12         | Adenine         | Thymine        
+13         | Guanine         | Cytosine       
+14         | Adenine         | Thymine        
+15         | Guanine         | Cytosine       
+16         | Adenine         | Thymine        
+17         | Guanine         | Cytosine       
+--------------------------------------------------
+Detailed Nucleic Acid Properties:
+
+--- Index 0 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 0 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 1 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 1 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 2 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 2 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 3 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 3 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 4 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 4 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 5 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 5 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 6 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 6 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 7 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 7 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 8 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 8 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 9 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 9 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 10 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 10 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 11 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 11 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 12 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 12 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 13 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 13 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 14 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 14 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 15 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 15 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 16 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 16 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 17 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 17 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+==================================================
+          HIGHEST NUCLEIC ACID MOLAR MASS         
+Highest Molar Mass: 151.130 g/mol
+Found at Index 1 in LtoRHelix (Guanine)
+==================================================
+
+==================================================
+              TOTAL DNA DENSITY                   
+Total Density (All Bases): 59.400 g/cm3
+==================================================
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Test Case 3: GGCCGGCC ----------------------------------------------------------------------------------------------------------------
+Enter DNA Strand: GGCCGGCC
+Using Input Strand: GGCCGGCC
+
+LtoR Helix populated -- Size: 8
+
+==================================================
+            DNA DOUBLE HELIX STRUCTURE            
+
+Index      | LtoR Base       | RtoL Base      
+--------------------------------------------------
+0          | Guanine         | Cytosine       
+1          | Guanine         | Cytosine       
+2          | Cytosine        | Guanine        
+3          | Cytosine        | Guanine        
+4          | Guanine         | Cytosine       
+5          | Guanine         | Cytosine       
+6          | Cytosine        | Guanine        
+7          | Cytosine        | Guanine        
+--------------------------------------------------
+Detailed Nucleic Acid Properties:
+
+--- Index 0 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 0 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 1 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 1 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 2 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 2 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 3 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 3 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 4 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 4 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 5 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 5 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 6 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 6 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+--- Index 7 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: CYTOSINE
+==================================================
+Chemical Formula              : C4H5N3O
+Molar Mass                    : 111.100 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 7 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: GUANINE
+==================================================
+Chemical Formula              : C5H5N5O
+Molar Mass                    : 151.130 g/mol
+Density                       : 2.200 g/cm3
+==================================================
+
+==================================================
+          HIGHEST NUCLEIC ACID MOLAR MASS         
+Highest Molar Mass: 151.130 g/mol
+Found at Index 0 in LtoRHelix (Guanine)
+==================================================
+
+==================================================
+              TOTAL DNA DENSITY                   
+Total Density (All Bases): 30.400 g/cm3
+==================================================
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Test Case 3: FAFAFAFAFAFAFA ---------------------------------------------------------------------------------------------------------
+Enter DNA Strand: FAFAFAFAFAFAFA
+Using Input Strand: FAFAFAFAFAFAFA
+Error: Invalid base character: F
+Error: Invalid base character: F
+Error: Invalid base character: F
+Error: Invalid base character: F
+Error: Invalid base character: F
+Error: Invalid base character: F
+Error: Invalid base character: F
+
+LtoR Helix populated -- Size: 14
+Error: Invalid base character:  
+Error: Invalid base character:  
+Error: Invalid base character:  
+Error: Invalid base character:  
+Error: Invalid base character:  
+Error: Invalid base character:  
+Error: Invalid base character:  
+
+==================================================
+            DNA DOUBLE HELIX STRUCTURE            
+
+Index      | LtoR Base       | RtoL Base      
+--------------------------------------------------
+0          | NONE            | NONE           
+1          | Adenine         | Thymine        
+2          | NONE            | NONE           
+3          | Adenine         | Thymine        
+4          | NONE            | NONE           
+5          | Adenine         | Thymine        
+6          | NONE            | NONE           
+7          | Adenine         | Thymine        
+8          | NONE            | NONE           
+9          | Adenine         | Thymine        
+10         | NONE            | NONE           
+11         | Adenine         | Thymine        
+12         | NONE            | NONE           
+13         | Adenine         | Thymine        
+--------------------------------------------------
+Detailed Nucleic Acid Properties:
+
+--- Index 0 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: NONE
+==================================================
+Chemical Formula              : NONE
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+--- Index 0 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: NONE
+==================================================
+Chemical Formula              : NONE
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+--- Index 1 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 1 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 2 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: NONE
+==================================================
+Chemical Formula              : NONE
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+--- Index 2 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: NONE
+==================================================
+Chemical Formula              : NONE
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+--- Index 3 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 3 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 4 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: NONE
+==================================================
+Chemical Formula              : NONE
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+--- Index 4 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: NONE
+==================================================
+Chemical Formula              : NONE
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+--- Index 5 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 5 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 6 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: NONE
+==================================================
+Chemical Formula              : NONE
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+--- Index 6 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: NONE
+==================================================
+Chemical Formula              : NONE
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+--- Index 7 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 7 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 8 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: NONE
+==================================================
+Chemical Formula              : NONE
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+--- Index 8 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: NONE
+==================================================
+Chemical Formula              : NONE
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+--- Index 9 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 9 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 10 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: NONE
+==================================================
+Chemical Formula              : NONE
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+--- Index 10 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: NONE
+==================================================
+Chemical Formula              : NONE
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+--- Index 11 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 11 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+--- Index 12 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: NONE
+==================================================
+Chemical Formula              : NONE
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+--- Index 12 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: NONE
+==================================================
+Chemical Formula              : NONE
+Molar Mass                    : 0.000 g/mol
+Density                       : 0.000 g/cm3
+==================================================
+
+--- Index 13 LtoR Helix ---
+
+
+==================================================
+NUCLEIC ACID: ADENINE
+==================================================
+Chemical Formula              : C5H5N5
+Molar Mass                    : 135.130 g/mol
+Density                       : 1.600 g/cm3
+==================================================
+
+--- Index 13 RtoL Helix ---
+
+
+==================================================
+NUCLEIC ACID: THYMINE
+==================================================
+Chemical Formula              : C5H6N2O2
+Molar Mass                    : 126.110 g/mol
+Density                       : 1.200 g/cm3
+==================================================
+
+==================================================
+          HIGHEST NUCLEIC ACID MOLAR MASS         
+Highest Molar Mass: 135.130 g/mol
+Found at Index 1 in LtoRHelix (Adenine)
+==================================================
+
+==================================================
+              TOTAL DNA DENSITY                   
+Total Density (All Bases): 19.600 g/cm3
+==================================================
+--------------------------------------------------------------------------------------------------------------------------------------
