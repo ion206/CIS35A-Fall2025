@@ -33,7 +33,7 @@ public class SpecialSavings extends SavingsAccount {
      * Overrides the parent method (Polymorphism) to apply conditional interest 
      * If balance > $10,000, use 10% interest  Otherwise, use the static annualInterestRate 
      */
-    @Override //Double check if we need this
+
     public void calculateMonthlyInterest() {
         double applicableRate;
 

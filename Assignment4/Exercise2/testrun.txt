@@ -1,0 +1,49 @@
+Ayan Syed
+F25 CIS D035A 11Y, 62Z Java Programming
+Assignment 4 - Exercise 2
+Due Date: November 12th, 2025
+Date Submitted: November 12th, 2025
+
+Exercise 2 Test Runs
+
+--- Exercise 2: Ship Inheritance and Polymorphism Demo ---
+
+==================================================
+  DEMONSTRATING POLYMORPHISM (Calling printDetails)
+==================================================
+--------------------------------------------------
+VESSEL TYPE: Ship
+Name: The Wanderer | Owner: NaviCo Inc.
+Dimensions: 50.5 m (L) x 10.2 m (W) x 8.0 m (H)
+Max Capacity (General): 100 units
+Operational Status: Afloat
+--------------------------------------------------
+VESSEL TYPE: CargoShip
+Name: Global Freighter | Owner: MegaLogistics
+Dimensions: 300.0 m (L) x 40.0 m (W) x 30.0 m (H)
+Max Capacity (General): 200000 units
+Operational Status: Afloat
+--- Cargo Specifics ---
+Cargo Type: Containerized Goods | Value: $98,000,000.00
+Loading Method: Gantry Crane (Cranes: 4)
+Hazard/Contraband Status: Clear
+--------------------------------------------------
+--------------------------------------------------
+VESSEL TYPE: CruiseShip
+Name: The Neptune Dream | Owner: Cruises R Us
+Dimensions: 350.0 m (L) x 45.0 m (W) x 55.0 m (H)
+Max Capacity (General): 6000 units
+Operational Status: Afloat
+--- Cruise Specifics ---
+Cruise Type: Luxury Resort | Rooms: 2500
+Avg Ticket Price: $1,500.00
+Primary Services: Spa, Casino, Concert Hall, Water Park
+Dining Theme: International Cuisine & Seafood Galore
+--------------------------------------------------
+
+==================================================
+ DEMONSTRATING NON-OVERRIDDEN METHOD (Calling move)
+==================================================
+  [Status]: The Wanderer is currently traveling from Port A to Port B.
+  [Status]: Global Freighter is currently traveling from Tokyo to LA.
+  [Status]: The Neptune Dream is currently traveling from Miami to Bahamas.

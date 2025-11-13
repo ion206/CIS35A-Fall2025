@@ -2,9 +2,13 @@
 Ayan Syed
 F25 CIS D035A 11Y, 62Z Java Programming
 Assignment 4 - Exercise 2
+Due Date: November 12th, 2025
+Date Submitted: November 12th, 2025
+
 
 Parent Class: Ship
-Contains properties common to all types of vessels.
+Contains properties common to all types of Ships
+Has Various properties like floating, capacity, length, etc.
 */
 public class Ship {
     // Ship Properties
@@ -41,17 +45,17 @@ public class Ship {
 
     // --- Core Methods ---
     
-    /**
-     * Demonstrates a standard behavior (not overridden).
+    /*
+     * Demonstrates a standard behavior (not overridden)
      */
     public void move() {
         System.out.printf("  [Status]: %s is currently traveling from %s to %s.\n", 
             this.name, this.departingPort, this.arrivalPort);
     }
     
-    /**
+    /*
      * Prints the generic details of the Ship. This method will be overridden 
-     * in child classes to demonstrate polymorphism.
+     * in child classes to demonstrate polymorphism
      */
     public void printDetails() {
         System.out.println("--------------------------------------------------");

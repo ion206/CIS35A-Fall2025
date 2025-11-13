@@ -2,9 +2,14 @@
 Ayan Syed
 F25 CIS D035A 11Y, 62Z Java Programming
 Assignment 4 - Exercise 2
+Due Date: November 12th, 2025
+Date Submitted: November 12th, 2025
+
 
 Child Class: CargoShip
-Extends Ship and adds cargo-specific properties and behaviors.
+Extends Ship and adds cargo-specific properties and behaviors
+
+Overriden printDetails Function and Contructor
 */
 public class CargoShip extends Ship {
     // CargoShip Properties
@@ -34,7 +39,7 @@ public class CargoShip extends Ship {
     /**
      * Overridden method (Polymorphism) to display CargoShip-specific details.
      */
-    @Override
+
     public void printDetails() {
         // Call the parent's printDetails method first
         super.printDetails(); 

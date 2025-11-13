@@ -2,16 +2,22 @@
 Ayan Syed
 F25 CIS D035A 11Y, 62Z Java Programming
 Assignment 4 - Exercise 2
+Due Date: November 12th, 2025
+Date Submitted: November 12th, 2025
 
+
+CruiseShip.java
 Child Class: CruiseShip
-Extends Ship and adds passenger/luxury-specific properties and behaviors.
+Extends Ship and adds passenger/luxury-specific properties and behaviors
+
+Overrriden Contructor and printDetails Functions 
 */
 public class CruiseShip extends Ship {
     // CruiseShip Properties
     private double ticketPrice;
     private int numberOfRooms;
     private String buffetMenu; // Simple string for menu description
-    private String[] services; // Services array
+    private String[] services; // Services array, what services the cruise has
     private String cruiseType; // e.g., Luxury, Family, Expedition
 
     /**
@@ -34,7 +40,7 @@ public class CruiseShip extends Ship {
     /**
      * Overridden method (Polymorphism) to display CruiseShip-specific details.
      */
-    @Override
+
     public void printDetails() {
         // Call the parent's printDetails method first
         super.printDetails(); 
