@@ -1,0 +1,40 @@
+UML Class Diagram: Exercise 1 (Savings Accounts)
+
+classDiagram
+    direction LR
+
+    class SavingsAccount {
+        +static annualInterestRate : double
+        #savingsBalance : double
+        +SavingsAccount(double)
+        +calculateMonthlyInterest() : void
+        +static modifyInterestRate(double) : void
+        +deposit(double) : void
+        +withdrawal(double) : boolean
+    }
+
+    class SpecialSavings {
+        -static SPECIAL_RATE : double
+        -static THRESHOLD : double
+        +SpecialSavings(double)
+        +calculateMonthlyInterest() : void
+    }
+
+    class AccountDriver {
+        +main(String[]): void
+    }
+
+    SpecialSavings --|> SavingsAccount : inherits (extends)
+    AccountDriver ..> SavingsAccount : uses
+    AccountDriver ..> SpecialSavings : uses
+
+
+Key OOP Concepts Shown:
+
+Inheritance: SpecialSavings is a child of SavingsAccount.
+
+Polymorphism: SpecialSavings.calculateMonthlyInterest() overrides the parent's method to provide specialized logic.
+
+Static Variable: annualInterestRate is shared across all SavingsAccount and SpecialSavings objects.
+
+Protected Access: #savingsBalance allows direct access by child classes while protecting the field from external modification (outside of defined methods).

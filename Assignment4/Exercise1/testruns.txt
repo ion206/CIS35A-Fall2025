@@ -1,0 +1,42 @@
+--- Exercise 1, Part 1: Standard Savings Account Test ---
+
+Initial Balances:
+Saver 1 Balance: $2000.00 (Rate: 0.0%)
+Saver 2 Balance: $3000.00 (Rate: 0.0%)
+
+--- Month 1: Interest Rate set to 4.0% ---
+Saver 1 Balance: $2006.67 (Rate: 4.0%)
+Saver 2 Balance: $3010.00 (Rate: 4.0%)
+
+--- Month 2: Interest Rate set to 5.0% ---
+Saver 1 Balance: $2015.03 (Rate: 5.0%)
+Saver 2 Balance: $3022.54 (Rate: 5.0%)
+
+
+
+
+--- Exercise 1, Part 2: Special Savings Account Test ---
+
+Initial Balances (Standard Rate 4.0%):
+Special Saver 1 Balance: $9500.00 (Rate: 4.0%)
+Special Saver 2 Balance: $12000.00 (Rate: 4.0%)
+
+--- Month 3: Test Initial Interest Calculation ---
+  [Special Rate Applied: 10.0%]
+Special Saver 1 Balance: $9531.67 (Rate: 4.0%)
+Special Saver 2 Balance: $12100.00 (Rate: 4.0%)
+
+--- Account Activity ---
+Special Saver 1 deposits $1000.00 (Crosses threshold)
+Special Saver 2 withdraws $3000.00 (Drops below threshold)
+
+Balances Before Next Interest Calculation:
+Special Saver 1 Balance: $10531.67 (Rate: 4.0%)
+Special Saver 2 Balance: $9100.00 (Rate: 4.0%)
+
+--- Month 4: Test Polymorphism After Activity ---
+  [Special Rate Applied: 10.0%]
+
+Final Balances:
+Special Saver 1 Balance: $10619.43 (Rate: 4.0%)
+Special Saver 2 Balance: $9130.33 (Rate: 4.0%)
