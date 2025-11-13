@@ -1,3 +1,11 @@
+Ayan Syed
+F25 CIS D035A 11Y, 62Z Java Programming
+Assignment 4 - Exercise 1
+Due Date: November 12th, 2025
+Date Submitted: November 12th, 2025
+
+Exercise 1 Test Runs
+
 --- Exercise 1, Part 1: Standard Savings Account Test ---
 
 Initial Balances:
