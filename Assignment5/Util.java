@@ -1,21 +1,31 @@
+/*
+Ayan Syed
+F25 CIS D035A 11Y, 62Z Java Programming
+Assignment 5
+Due Date: November 17th, 2025
+Date Submitted: November 17th, 2025
+
+Util.java
+Util Class
+Manages File I/O operations, reading Student and quiz data from files
+and populating the array of Student objects.
+
+Main Function is readFile(...) that handles IO and populates a given Student[] with data vals from file
+*/
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-/*
-Util Class
-Manages File I/O operations, specifically reading student data from a text file
-and populating the array of Student objects.
-*/
 public class Util {
 
     /**
      * Reads the student data from a text file, tokenizes the lines,
-     * and populates the Student array.
-     * * @param filename The name of the input text file.
-     * @param stu The Student array to be populated (must be large enough).
-     * @return The populated Student array.
+     * and populates the Student arrays
+     * String filename - Name of the input text file
+     * Student[] stu - Student array to be populated (must be large enough)
+     * return Student[] - Populated Student array based on input file
      */
     public Student[] readFile(String filename, Student[] stu) {
         int studentIndex = 0;
@@ -24,7 +34,7 @@ public class Util {
         try (FileReader file = new FileReader(filename);
              BufferedReader buff = new BufferedReader(file)) {
              
-            // 1. Skip the header line ("Stud Qu1 Qu2 Qu3 Qu4 Qu5")
+            // Skip the header line ("Stud Qu1 Qu2 Qu3 Qu4 Qu5")
             buff.readLine(); 
 
             String line;
@@ -36,36 +46,31 @@ public class Util {
                 // Tokenize the line
                 StringTokenizer st = new StringTokenizer(line);
                 
-                // 3. Process tokens (SID and 5 scores)
-                
+                // Process tokens (SID and 5 scores)
                 // Read SID (Token 1)
-                if (st.hasMoreTokens()) {
-                    // Use Integer Wrapper Class: Integer.parseInt(String)
-                    stu[studentIndex].setSID(Integer.parseInt(st.nextToken()));
-                }
+                stu[studentIndex].setSID(Integer.parseInt(st.nextToken()));
                 
                 // Read 5 Scores (Tokens 2 through 6)
                 for (int i = 0; i < 5; i++) {
-                    if (st.hasMoreTokens()) {
-                        // Use Integer Wrapper Class: Integer.parseInt(String)
-                        int score = Integer.parseInt(st.nextToken());
-                        stu[studentIndex].setScore(i, score);
-                    } else {
-                        System.err.println("Error: Missing score(s) for student ID: " + stu[studentIndex].getSID());
-                        break; // Stop processing scores for this line
-                    }
+                    int score = Integer.parseInt(st.nextToken());
+                    stu[studentIndex].setScore(i, score);
                 }
                 studentIndex++;
             }
 
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             System.out.println("Error reading file '" + filename + "'. Ensure it exists in the correct directory.");
             System.out.println("Details: " + e.getMessage());
             // Return empty or partially filled array on error
             return new Student[0]; 
         }
-        
         // Return the array reference (now populated)
         return stu; 
+    }
+
+    //Default Constructor
+    public Util(){
+        //empty
     }
 }

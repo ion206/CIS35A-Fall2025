@@ -1,10 +1,39 @@
 /*
-Student Class
-Represents a single student with a unique ID and an array of 5 quiz scores.
+Ayan Syed
+F25 CIS D035A 11Y, 62Z Java Programming
+Assignment 5
+Due Date: November 24th, 2025
+Date Submitted: November 24th, 2025
+
+
+Student.java
+Class to represent a Student, holding his/her ID test scores as well as ways to access and set them
+
+Two Main Instance Vars:
+int SID - Student ID Number (must be four digitss)
+int[] scores - the list of 5 quiz scores the Student earned
+
+Contains:
+Overloaded and Default Constructors
+Getters and Setter for SID and Scores
+print - prints the Student data in a special formatted row
 */
 public class Student {
-    private int SID;
-    private int[] scores = new int[5];
+    private int SID; //Student ID Number
+    private int[] scores; //The list of 5 quiz scores
+
+
+    //Overloaded Constructor
+    public Student(int ID, int[] scoreInput){
+        this.SID = ID;
+        this.scores = scoreInput;
+    }
+
+    //Default Constructor
+    public Student(){
+        this.SID = 0000;
+        this.scores = new int[5];
+    }
 
     // --- Getters ---
     public int getSID() {
@@ -15,11 +44,8 @@ public class Student {
         return scores;
     }
 
-    public int getScore(int quizIndex) {
-        if (quizIndex >= 0 && quizIndex < 5) {
-            return scores[quizIndex];
-        }
-        return -1; // Error value
+    public int getScore(int index){
+        return scores[index];
     }
 
     // --- Setters ---
@@ -27,25 +53,32 @@ public class Student {
         this.SID = SID;
     }
 
+    //Given an array of scores, set this Students scores those that
     public void setScores(int[] scores) {
+        if (!(this.scores.length > 0)){
+            //If Student scores hasn't been init yet, this initilizes it
+            this.scores = new int[5];
+        }
         if (scores.length == 5) {
             this.scores = scores;
         }
     }
     
+    //Sets a given quiz score 
+    //quizIndex (int) - the quiz number (0-4) to be set
+    //score (int) - the score to set that quiz to 
     public void setScore(int quizIndex, int score) {
         if (quizIndex >= 0 && quizIndex < 5) {
             this.scores[quizIndex] = score;
         }
     }
 
-    /**
-     * Prints the student ID and all 5 scores in a single formatted line.
-     */
+
+    // Prints the student ID and all 5 scores in a single formatted line.
     public void print() {
-        System.out.printf("%-7d", SID);
-        for (int score : scores) {
-            System.out.printf("%-7d", score);
+        System.out.print(SID + ":  ");
+        for (int i = 0; i < scores.length; i++) {
+            System.out.printf("%-7d", scores[i]);
         }
         System.out.println();
     }
