@@ -1,0 +1,27 @@
+classDiagram
+    direction TB
+    
+    class Driver {
+        +static main(String[] args)
+    }
+
+    class Simulation {
+        +toss(Coin c) : void
+    }
+
+    class Coin {
+        -String sideUp
+        -Random random
+        +Coin()
+        +toss() : void
+        +getSideUp() : String
+    }
+
+    %% Relationships
+    
+    % Driver creates instances of Coin and Simulation (Dependency)
+    Driver ..> Simulation : Creates
+    Driver ..> Coin : Creates
+
+    % Simulation uses Coin as a parameter in its method (Dependency)
+    Simulation ..> Coin : Uses
