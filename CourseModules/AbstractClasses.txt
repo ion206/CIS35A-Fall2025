@@ -1,0 +1,113 @@
+//Abstract Classes
+
+abstract class Time {
+        public abstract int getMinutes();
+    }
+    
+    class Days extends Time {
+        private int days;
+        public int getMinutes() {
+            return days * 24 * 60;
+        }
+    }
+    
+    class HoursMinutes extends Time {
+        private int hours;
+        private int minutes;
+        public int getMinutes() {
+            return hours * 60 + minutes;
+        }
+    }
+
+
+//Representing an abstract idea
+---------------------------------
+public abstract class Animal { //abstract .. Cannot be instantiated.
+	private String name;
+	public Animal(String name)
+	{
+		setName(name);
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public abstract void sound(); //declare a method. //leave implementation for child class. //enforces a contract to enable polymorphism.
+}
+public class Cat extends Animal {
+	public Cat(String name)	{ super(name); }
+	public void sound() {
+		System.out.println("purr...");		
+	}}
+public class Dog extends Animal {
+	public Dog(String name) { super(name); }
+	public void sound() {
+		System.out.println("woof...");
+	}}
+public class Bird extends Animal {
+	public Bird(String name) { super(name); }
+	public void sound() {
+		System.out.println("tweet tweet...");		
+	}}
+public class Program3 {
+	public static void main(String[] args) {
+		Animal animal;
+		Cat cat = new Cat("Garfield");
+		Bird bird = new Bird("Tweety");
+		Dog dog = new Dog("Odie");
+		animal = cat;
+		System.out.println("Name: " + animal.getName());
+		animal.sound();
+		System.out.println();
+		animal = bird;
+		System.out.println("Name: " + animal.getName());
+		animal.sound();
+		System.out.println();
+		animal = dog;
+		System.out.println("Name: " + animal.getName());
+		animal.sound();
+		System.out.println();
+	}
+}
+-------------------------------------
+
+Data Abstraction
+----------------
+public abstract class Shape {
+	public int height;
+	public int width;
+	public abstract double area();
+}
+public class Rectangle extends Shape {
+	public Rectangle(int height, int width)
+	{
+		this.height = height;
+		this.width = width;
+	}
+	public double area() {
+		return height * width;
+	}
+}
+public class Triangle extends Shape {
+	public Triangle(int height, int width)
+	{
+		this.height = height;
+		this.width = width;
+	}
+	public double area() {
+		return 0.5 * height * width;
+	}
+}
+public class Program4 {
+	public static void main(String[] args) {
+		Shape shape;
+		Rectangle rectangle = new Rectangle(2, 4);
+		Triangle triangle = new Triangle(2, 4);
+		shape = rectangle;
+		System.out.println("Area of rectangle: " + shape.area()); 
+		shape = triangle;
+		System.out.println("Area of triangle: " + shape.area()); 
+	}
+}
