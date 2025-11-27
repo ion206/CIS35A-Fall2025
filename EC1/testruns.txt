@@ -1,0 +1,69 @@
+Ayan Syed
+F25 CIS D035A 11Y, 62Z Java Programming
+EC1
+Due Date: December 3rd, 2025
+Date Submitted: December 3rd, 2025
+
+
+Test Runs for EC1
+
+First Run:
+--- Test Case 1: Quarter ---
+Simulation Results:
+Total Tosses: 20
+Heads: 10
+Tails: 10
+-------------------------------
+--- Test Case 2: Dime ---
+Simulation Results:
+Total Tosses: 20
+Heads: 14
+Tails: 6
+-------------------------------
+--- Test Case 3: Nickel ---
+Simulation Results:
+Total Tosses: 20
+Heads: 12
+Tails: 8
+-------------------------------
+
+Second Run:
+--- Test Case 1: Quarter ---
+Simulation Results:
+Total Tosses: 20
+Heads: 10
+Tails: 10
+-------------------------------
+--- Test Case 2: Dime ---
+Simulation Results:
+Total Tosses: 20
+Heads: 8
+Tails: 12
+-------------------------------
+--- Test Case 3: Nickel ---
+Simulation Results:
+Total Tosses: 20
+Heads: 10
+Tails: 10
+-------------------------------
+
+
+Third Run:
+--- Test Case 1: Quarter ---
+Simulation Results:
+Total Tosses: 20
+Heads: 9
+Tails: 11
+-------------------------------
+--- Test Case 2: Dime ---
+Simulation Results:
+Total Tosses: 20
+Heads: 11
+Tails: 9
+-------------------------------
+--- Test Case 3: Nickel ---
+Simulation Results:
+Total Tosses: 20
+Heads: 10
+Tails: 10
+-------------------------------
