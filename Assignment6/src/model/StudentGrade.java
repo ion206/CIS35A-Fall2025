@@ -10,11 +10,9 @@ StudentGrade.java
 Generates Student Grade Report
 Part of model Package
 
-Driver Class to demonstrate exception handling
 
 Main Functions:
-+ static void main(String[]): TODO
-+ Driver1(): Default Constructor
++ void printGradeReport(): Prints the Student Grade Report along with class stats
 
 */
 
@@ -31,11 +29,14 @@ public class StudentGrade implements Serializable {
     private Student student;
     private Statistics statistics;
 
+    //Default Constructor
     public StudentGrade(Student student, Statistics statistics) {
         this.student = student;
         this.statistics = statistics;
     }
 
+
+    //Getters
     public Student getStudent() {
         return student;
     }
@@ -44,6 +45,7 @@ public class StudentGrade implements Serializable {
         return statistics;
     }
 
+    //Prints the Student Grade Report along with class stats
     public void printGradeReport() {
         System.out.println("--- Student Grade Report ---");
         student.print();

@@ -4,4 +4,4 @@ EC1
 Due Date: December 3rd, 2025
 Date Submitted: December 3rd, 2025
 
-Three .java files contained, handrawn Class Diagram, and testruns.txt all in root folder
+Three .java files contained, hand-drawn Class Diagram, and testruns.txt all in root folder

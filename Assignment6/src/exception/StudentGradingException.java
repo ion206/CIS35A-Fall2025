@@ -74,6 +74,7 @@ public class StudentGradingException extends Exception {
         return "StudentData.txt";
     }
 
+    //Getters
     public int getErrorNo() {
         return errorNo;
     }
