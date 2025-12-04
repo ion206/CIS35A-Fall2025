@@ -1,0 +1,27 @@
+Ayan Syed
+F25 CIS D035A 11Y, 62Z Java Programming
+Assignment 6
+Due Date: December 3rd, 2025
+Date Submitted: December 3rd, 2025
+
+
+Test Runs for all drivers:
+
+
+Driver 1: Testing Exception Handling Class Logic and implementation
+
+--- Driver 1: Exception Handling ---
+Attempting to read: DoesNotExist.txt
+Caught Exception: File not found: DoesNotExist.txt
+Exception logged to exception_log.txt
+Attempting to fix missing file error...
+Retrying with fixed filename: StudentData.txt
+File read successfully after fix!
+1234:  52     7      100    78     34   
+
+Log File Also Received a New Line:
+Timestamp: Thu Nov 27 19:52:38 WITA 2025 | Error 101: File not found: DoesNotExist.txt
+
+
+Driver 2:
+
