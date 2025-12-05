@@ -10,6 +10,7 @@ Current Assignments:
 * Assignment 3
 * Assignment 4
 * Assingment 5
+* Assignment 6
 * EC Assignment
 * Course Modules
 
