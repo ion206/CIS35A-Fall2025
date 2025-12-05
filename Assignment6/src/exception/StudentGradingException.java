@@ -2,8 +2,8 @@
 Ayan Syed
 F25 CIS D035A 11Y, 62Z Java Programming
 Assignment 6
-Due Date: December 3rd, 2025
-Date Submitted: December 3rd, 2025
+Due Date: December 4th, 2025
+Date Submitted: December 4th, 2025
 
 
 StudentGradingException.java
@@ -51,8 +51,6 @@ public class StudentGradingException extends Exception {
     }
 
     // Requirement: Logs exceptions in a text file
-    // FLAG - TODO, doublecheck file writing logic and make sure it is in compliance with CIS 35a
-    //can we use somthingin FileIO?
     // adds a new line to the excpetion log with the timestamp and error description
     public void logException() {
         String logFile = "exception_log.txt";

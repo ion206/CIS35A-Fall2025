@@ -2,8 +2,8 @@
 Ayan Syed
 F25 CIS D035A 11Y, 62Z Java Programming
 Assignment 6
-Due Date: December 3rd, 2025
-Date Submitted: December 3rd, 2025
+Due Date: December 4th, 2025
+Date Submitted: December 4th, 2025
 
 
 StudentGrade.java
@@ -20,7 +20,6 @@ package model;
 
 import java.io.Serializable;
 
-//FLAG: TODO, Check Serializable logic and implemtnation based on 35A standards 
 
 //Container class for Serialization
 public class StudentGrade implements Serializable {
